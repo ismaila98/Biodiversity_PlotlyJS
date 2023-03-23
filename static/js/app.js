@@ -19,7 +19,7 @@ function init() {
 
 init();
 
-function update(currentSamp) {
+function optionChanged(currentSamp) {
     buildMetadata(currentSamp);
     buildCharts(currentSamp);
 }
